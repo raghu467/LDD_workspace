@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../source/linux/include/linux"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"cdev.h": "c"
+		}
+	}
+}
