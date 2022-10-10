@@ -113,9 +113,9 @@ ssize_t pcd_write(struct file *filep, const char __user *user_datap, size_t coun
 		return(-EFAULT);
 	}
 	*offp+=count;
-
+	
 	pr_info("count=%zu",count);
-	pr_info("file_offset=%lld",*offp);
+	pr_info("file_offset=%lld\n",*offp);
 
 	return count;
 }
